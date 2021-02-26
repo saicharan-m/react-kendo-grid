@@ -10,7 +10,7 @@ class App extends React.Component {
     columns = (() => {
         const cols = [];
         for (let c = 1; c <= this.numberOfColumns; c++) {
-            cols.push(<GridColumn field={'Field-' + c.toString()} width={150}></GridColumn>);
+            cols.push(<GridColumn field={'Field-' + c.toString()} width={150} locked={c===1}></GridColumn>);
         }
         return cols;
     })();
