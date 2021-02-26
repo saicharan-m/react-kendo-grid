@@ -1,0 +1,32 @@
+{
+  "name": "87jwum--run",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "@progress/kendo-react-grid": "4.4.0",
+    "@progress/kendo-data-query": "1.5.4",
+    "@progress/kendo-drawing": "1.9.4",
+    "@progress/kendo-licensing": "1.1.3",
+    "@progress/kendo-react-animation": "4.4.0",
+    "@progress/kendo-react-buttons": "4.4.0",
+    "@progress/kendo-react-intl": "4.4.0",
+    "@progress/kendo-react-dateinputs": "4.4.0",
+    "@progress/kendo-react-treeview": "4.4.0",
+    "@progress/kendo-react-dropdowns": "4.4.0",
+    "@progress/kendo-react-inputs": "4.4.0",
+    "@progress/kendo-react-popup": "4.4.0",
+    "@progress/kendo-react-data-tools": "4.4.0",
+    "prop-types": "15.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
